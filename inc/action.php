@@ -16,9 +16,9 @@ add_action( 'after_setup_theme', 'wpdemotheme_content_width', 0 );
 /**
  * Action for register widget.
  */
-add_action( 'wp_enqueue_scripts', 'wpdemotheme_scripts' );
+add_action( 'widgets_init', 'wpdemotheme_widgets_init' );
 
 /**
  * Action for the frontend script enqueueing.
  */
-add_action( 'widgets_init', 'wpdemotheme_widgets_init' );
+add_action( 'wp_enqueue_scripts', 'wpdemotheme_scripts' );
