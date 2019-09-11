@@ -10,7 +10,6 @@
 /**
  * All the actions.
  */
-
 require get_template_directory() . '/inc/action.php';
 
 /**
