@@ -1,2 +1,0 @@
-- name: PHPCS Code Review
-  uses: rtCamp/action-phpcs-code-review@v1.0.0
