@@ -10,7 +10,7 @@
 /**
  * All the actions.
  */
-require get_template_directory( ) . '/inc/action.php';
+require get_template_directory() . '/inc/action.php';
 
 /**
  * included all the callback functions of action.
